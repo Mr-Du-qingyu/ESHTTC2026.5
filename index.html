@@ -1,0 +1,36 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>教师进修学校附属实验中学5班数学改错</title>
+  <link rel="stylesheet" href="style.css">
+      <div style="font-size:38px;text-align:center;height:120px;line-height:58px;background:#A8C8ED" /div>
+       <img width="224" height="120"  src="eshttc校徽.jpg" />  &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+       <!-- 图片比例5.6:3 -->
+       <img width="400" height="120"  src="eshttc标题.jpg" /> 
+       <!-- 图片比例9.6:3 -->
+    </head>
+    <body>
+    
+    <form class="box" action="index.html" method="post">
+       <h2>登&nbsp;&nbsp;陆</h2>
+       <input type="text" name="" id="name" placeholder="Username"/>
+       <input type="password" name="" id="pwd" placeholder="Password"/>
+       <input type="submit" name="" value="Login登陆" onclick="confime()" />
+     </form>
+    </body>
+    
+    <script>
+        function confime(){
+		var sname=document.getElementById("name").value
+		var spwd=document.getElementById("pwd").value
+		if(sname=="admin"&&spwd=="admin"){
+			window.location.href="a.html"
+		}
+		else
+		{
+			alert("用户名或密码错误!");		
+		}
+				
+	}
+    </scrupt>
+</html>
