@@ -89,6 +89,12 @@ body{
 
     .site-name {
         left: 20px;
+        right: 20px;
+    }
+}
+@media (max-width: 900px) { 
+    .page-body .container{
+       width: 100%;
     }
 }
 
