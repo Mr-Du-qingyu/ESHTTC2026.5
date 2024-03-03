@@ -65,3 +65,14 @@ body{
     justfy-content: center;
     algin-items: center;
 }
+@media (max-width: 1600px) { 
+    .page-header .container {
+        width: 100%;
+    }
+
+    .site-name {
+        left: 20px;
+    }
+}
+
+
