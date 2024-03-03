@@ -56,7 +56,7 @@ body{
     background:#2ecc71;
     }
 
-.box input[type = "button"]{
+.login {
    border:0;
    background:none;
    display:block;
@@ -71,7 +71,7 @@ body{
    transition:0.25s;
    cursor:pointer;
 }
-.box input[type = "button"]:hover{
+.login:hover{
     background:#2ecc71;
     }
 
